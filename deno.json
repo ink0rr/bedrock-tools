@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "install": "deno install --allow-read --allow-write --name bedrock cli.ts",
+    "uninstall": "deno uninstall bedrock"
+  },
+  "importMap": "import_map.json"
+}
