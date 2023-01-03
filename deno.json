@@ -1,7 +1,12 @@
 {
   "tasks": {
-    "install": "deno install --allow-read --allow-write --name bedrock cli.ts",
+    "install": "deno install --allow-read --allow-write --allow-net --name bedrock cli.ts",
     "uninstall": "deno uninstall bedrock"
+  },
+  "fmt": {
+    "options": {
+      "lineWidth": 120
+    }
   },
   "importMap": "import_map.json"
 }
