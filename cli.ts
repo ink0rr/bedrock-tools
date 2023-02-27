@@ -1,5 +1,6 @@
 import { Command } from "cliffy";
 import { create } from "./commands/create/create.ts";
+import { merge } from "./commands/merge.ts";
 
 if (import.meta.main) {
   await new Command()
@@ -7,5 +8,6 @@ if (import.meta.main) {
     .description("A CLI utils for Bedrock")
     .arguments("<command>")
     .command("create", create)
+    .command("merge", merge)
     .parse(Deno.args);
 }
