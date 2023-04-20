@@ -62,6 +62,8 @@ export const init = new Command()
 
     if (regolith) {
       writeJson("./config.json", {
+        $schema: "https://raw.githubusercontent.com/Bedrock-OSS/regolith-schemas/main/config/v1.1.json",
+        author: "Your Name",
         name,
         packs: {
           behaviorPack: `./packs/BP`,
@@ -73,6 +75,7 @@ export const init = new Command()
           profiles: {
             default: {
               export: {
+                readOnly: true,
                 target: "development",
               },
               filters: [],
