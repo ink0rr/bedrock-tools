@@ -1,4 +1,4 @@
-import { Command } from "cliffy";
+import { Command } from "cliffy/command";
 import { Image } from "imagescript";
 
 export const merge = new Command()

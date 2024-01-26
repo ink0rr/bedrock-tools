@@ -1,4 +1,5 @@
-import { Command, Confirm, Input } from "cliffy";
+import { Command } from "cliffy/command";
+import { Confirm, Input } from "cliffy/prompt";
 import { crypto } from "crypto";
 import { basename } from "path";
 import { outputFile, writeJson } from "../utils/fs.ts";

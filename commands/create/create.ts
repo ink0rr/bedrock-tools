@@ -1,4 +1,5 @@
-import { Command, Select } from "cliffy";
+import { Command } from "cliffy/command";
+import { Select } from "cliffy/prompt";
 import { block } from "./block.ts";
 import { entity } from "./entity.ts";
 import { item } from "./item.ts";

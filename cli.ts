@@ -1,4 +1,4 @@
-import { Command } from "cliffy";
+import { Command } from "cliffy/command";
 import { create } from "./commands/create/create.ts";
 import { init } from "./commands/init.ts";
 import { merge } from "./commands/merge.ts";

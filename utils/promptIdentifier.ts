@@ -1,4 +1,4 @@
-import { Input, prompt } from "cliffy";
+import { Input, prompt } from "cliffy/prompt";
 
 interface PromptResult {
   identifier: string;

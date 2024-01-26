@@ -1,4 +1,4 @@
-import { Command } from "cliffy";
+import { Command } from "cliffy/command";
 import { createEntity, lazuli } from "lazuli";
 import { promptIdentifier } from "../../utils/promptIdentifier.ts";
 
