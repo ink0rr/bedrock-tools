@@ -5,7 +5,5 @@
   "editor.rulers": [120],
   "editor.tabSize": 2,
   "files.eol": "\n",
-  "[typescript]": {
-    "editor.defaultFormatter": "denoland.vscode-deno"
-  }
+  "editor.defaultFormatter": "denoland.vscode-deno"
 }
